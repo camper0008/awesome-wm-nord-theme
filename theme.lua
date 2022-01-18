@@ -10,12 +10,13 @@ local dpi = require("beautiful.xresources").apply_dpi
 
 -- {{{ Main
 local theme = {}
-theme.wallpaper = themes_path .. "nord/nord-background.png"
+theme.wallpaper = themes_path .. "nord/terryd.jpg"
 -- }}}
 
 -- {{{ Styles
 -- theme.font      = "sans 8"
-theme.font      = "Play 9"
+-- theme.font      = "Play 9"
+theme.font 	= "Red Hat Mono Medium 10"
 
 -- {{{ Colors
 theme.fg_normal  = "#ECEFF4"
@@ -28,11 +29,14 @@ theme.bg_systray = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
-theme.useless_gap   = dpi(0)
-theme.border_width  = dpi(2)
-theme.border_normal = "#3B4252"
-theme.border_focus  = "#4C566A"
-theme.border_marked = "#D08770"
+theme.useless_gap   = dpi(6)
+theme.border_width  = dpi(0)
+theme.border_normal  = "#2E3440"
+theme.border_focus  = "#2E3440"
+theme.border_marked  = "#2E3440"
+--theme.border_normal = "#3B4252"
+--theme.border_focus  = "#4C566A"
+--theme.border_marked = "#D08770"
 -- }}}
 
 -- {{{ Titlebars
